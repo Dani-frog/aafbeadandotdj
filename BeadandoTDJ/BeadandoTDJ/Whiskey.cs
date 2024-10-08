@@ -109,7 +109,6 @@ namespace BeadandoTDJ
                         seriff.seriffKorulSzinez(matrix);
 
                     }
-                    else { Console.WriteLine("Nincs található Whiskey");Console.Clear(); }
                 }
             }
             

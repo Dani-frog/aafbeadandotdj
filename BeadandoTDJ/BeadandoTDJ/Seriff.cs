@@ -28,6 +28,7 @@ namespace BeadandoTDJ
             int maxSor = matrix.GetLength(0);
             int maxOszlop = matrix.GetLength(1);
 
+            Console.SetCursorPosition(0, 0);
 
             for (int j = 0; j < maxSor; j++)
             {
@@ -101,7 +102,7 @@ namespace BeadandoTDJ
                         Console.ForegroundColor = ConsoleColor.Cyan;
                     }
 
-                    Console.Write(matrix[i, j].nev);
+                    Console.Write(matrix[i, j].nev+" ");
                     Console.ResetColor();
                 }
                 Console.WriteLine();

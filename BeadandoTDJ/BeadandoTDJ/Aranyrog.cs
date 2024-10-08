@@ -72,7 +72,6 @@ namespace BeadandoTDJ
                             seriff.seriffKorulSzinez(matrix);
                         }
                     }
-                    else { Console.WriteLine("Nincs Aranyrög található"); Console.Clear(); }
                 }
             }
         }

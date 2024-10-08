@@ -74,7 +74,7 @@ namespace BeadandoTDJ
                 int randomdmgBandita = rnd.Next(4, 15);
                 feltoltClassRandom(new Bandita("E", randomdmgBandita, 100, 0), 1); // E = enemyy
             }
-            feltoltClassRandom(new Seriff("S", randomdmgSheriff, 1000,4),1);
+            feltoltClassRandom(new Seriff("S", randomdmgSheriff, 100,0),1);
             feltoltClassRandom(new Varoshaza("V",0,0,0),1);
         }
 
@@ -103,8 +103,6 @@ namespace BeadandoTDJ
                 
             }
             
-            Console.WriteLine(pozicioSheriff+"Sheriff");
-            foreach (var item in pozicioEnemy) { Console.WriteLine(item+"Enemy"); }
 
         }
 
@@ -195,9 +193,8 @@ namespace BeadandoTDJ
                 bandita.mozgasBanditakat(objectArray);
                 seriff.mozgasSeriff(objectArray);
                 seriff.seriffKorulSzinez(objectArray);
-                Thread.Sleep(300);
+                Thread.Sleep(3);
 
-                Console.Clear();
             }
         }
 

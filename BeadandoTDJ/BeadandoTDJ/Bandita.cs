@@ -77,7 +77,6 @@ namespace BeadandoTDJ
 
                     }
 
-                    Console.Clear();
                 }
             }
         }
@@ -135,7 +134,7 @@ namespace BeadandoTDJ
                                 seriff.arany += bandita.arany;
                                 bandita.arany = 0;
                                 Console.WriteLine("Seriff nyert");
-                                Thread.Sleep(300);
+
                                 break;
                             }
                             

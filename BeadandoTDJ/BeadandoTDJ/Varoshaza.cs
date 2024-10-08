@@ -81,10 +81,6 @@ namespace BeadandoTDJ
                     }
                 }
             }
-            else
-            {
-                Console.WriteLine("A seriffnek nincs elegendő aranya a Városháza kereséséhez.");
-            }
         }
     }
 }
